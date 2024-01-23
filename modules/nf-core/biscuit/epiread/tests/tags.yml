@@ -1,0 +1,2 @@
+biscuit/epiread:
+  - "modules/nf-core/biscuit/epiread/**"

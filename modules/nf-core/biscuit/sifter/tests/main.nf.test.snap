@@ -1,0 +1,136 @@
+{
+    "sarscov2 - [bam, bai] - BiscuitIndex | paired end": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,c4812f543fec813dfd370332d589d473"
+                    ]
+                ],
+                "1": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,8ed9a1c24274989fdc2ac6909f57bfed"
+                    ]
+                ],
+                "2": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test_dupsifter_stats.txt:md5,9d8350d1d685600426befabe91c26744"
+                    ]
+                ],
+                "3": [
+                    "versions.yml:md5,f3951bcc0dcdd34cf5c56b726c371b59"
+                ],
+                "bai": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,8ed9a1c24274989fdc2ac6909f57bfed"
+                    ]
+                ],
+                "bam": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,c4812f543fec813dfd370332d589d473"
+                    ]
+                ],
+                "dupsifter_stats": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test_dupsifter_stats.txt:md5,9d8350d1d685600426befabe91c26744"
+                    ]
+                ],
+                "versions": [
+                    "versions.yml:md5,f3951bcc0dcdd34cf5c56b726c371b59"
+                ]
+            }
+        ],
+        "timestamp": "2024-01-23T17:44:02.476974072"
+    },
+    "sarscov2 - [bam, bai] - BiscuitIndex | single end": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,988717cf701473f6283b8035c202300c"
+                    ]
+                ],
+                "1": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,fd49e419998d4b79997370b9ca2bbfb3"
+                    ]
+                ],
+                "2": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test_dupsifter_stats.txt:md5,b953677ce0118555fd1c1b679584489d"
+                    ]
+                ],
+                "3": [
+                    "versions.yml:md5,f3951bcc0dcdd34cf5c56b726c371b59"
+                ],
+                "bai": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,fd49e419998d4b79997370b9ca2bbfb3"
+                    ]
+                ],
+                "bam": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,988717cf701473f6283b8035c202300c"
+                    ]
+                ],
+                "dupsifter_stats": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test_dupsifter_stats.txt:md5,b953677ce0118555fd1c1b679584489d"
+                    ]
+                ],
+                "versions": [
+                    "versions.yml:md5,f3951bcc0dcdd34cf5c56b726c371b59"
+                ]
+            }
+        ],
+        "timestamp": "2024-01-23T17:43:46.772738816"
+    }
+}

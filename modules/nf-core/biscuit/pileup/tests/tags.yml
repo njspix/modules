@@ -1,0 +1,2 @@
+biscuit/pileup:
+  - "modules/nf-core/biscuit/pileup/**"

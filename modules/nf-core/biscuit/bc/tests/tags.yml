@@ -1,0 +1,2 @@
+biscuit/bc:
+  - "modules/nf-core/biscuit/bc/**"

@@ -4,4 +4,4 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - bioconda::biscuit=1.1.0.20220707
+  - bioconda::biscuit=1.4.0.20240108

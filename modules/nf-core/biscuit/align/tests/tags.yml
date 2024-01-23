@@ -1,0 +1,2 @@
+biscuit/align:
+  - "modules/nf-core/biscuit/align/**"

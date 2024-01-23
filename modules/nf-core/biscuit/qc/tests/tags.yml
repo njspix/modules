@@ -1,0 +1,2 @@
+biscuit/qc:
+  - "modules/nf-core/biscuit/qc/**"

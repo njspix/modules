@@ -4,8 +4,8 @@ process BISCUIT_ALIGN {
 
     conda "${moduleDir}/environment.yml"
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'https://depot.galaxyproject.org/singularity/mulled-v2-d94f582b04a3edcede1215189c0d881506640fd9:6519548ea4f3d6a526c78ad0350c58f867f28574-0':
-        'biocontainers/mulled-v2-d94f582b04a3edcede1215189c0d881506640fd9:6519548ea4f3d6a526c78ad0350c58f867f28574-0' }"
+        'https://depot.galaxyproject.org/singularity/mulled-v2-3f58ec2bbcefe75f55f36cf5defe6d77c8803de5:e34531e20dd2ff3fb3a8b1aa9ab20a205bbdd7e1-0':
+        'biocontainers/mulled-v2-3f58ec2bbcefe75f55f36cf5defe6d77c8803de5:e34531e20dd2ff3fb3a8b1aa9ab20a205bbdd7e1-0' }"
 
     input:
     tuple val(meta), path(reads)
@@ -24,7 +24,7 @@ process BISCUIT_ALIGN {
     def args2 = task.ext.args2 ?: ''
     def prefix = task.ext.prefix ?: "${meta.id}"
     def biscuit_cpus = (int) Math.max(Math.floor(task.cpus*0.9),1)
-    def samtools_cpus = task.cpus-biscuit_cpus
+    def samtools_cpus = Math.max(task.cpus-biscuit_cpus, 1)
     """
     INDEX=`find -L ./ -name "*.bis.amb" | sed 's/\\.bis.amb\$//'`
 

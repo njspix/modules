@@ -1,0 +1,11 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json
+name: "sifter"
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::biscuit=1.4.0.20240108
+  - bioconda::dupsifter=1.2.0.20230926
+  - bioconda::samtools=1.19

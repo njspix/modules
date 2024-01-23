@@ -4,8 +4,8 @@ process BISCUIT_INDEX {
 
     conda "${moduleDir}/environment.yml"
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'https://depot.galaxyproject.org/singularity/biscuit:1.1.0.20220707--he272189_1':
-        'biocontainers/biscuit:1.1.0.20220707--he272189_1' }"
+        'https://depot.galaxyproject.org/singularity/biscuit:1.4.0.20240108--h0be9327_0':
+        'biocontainers/biscuit:1.4.0.20240108--h0be9327_0' }"
 
     input:
     path fasta, stageAs: "BiscuitIndex/*"

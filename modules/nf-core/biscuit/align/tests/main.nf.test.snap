@@ -1,0 +1,100 @@
+{
+    "sarscov2 - [bam, bai] - BiscuitIndex | paired end": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,aa845260a9fdebcb99a1b569820d6de2"
+                    ]
+                ],
+                "1": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,c1ce3dc967780b0dda4ff9611ccd420c"
+                    ]
+                ],
+                "2": [
+                    "versions.yml:md5,7ed3196b956bb59d7819f39bcf4aea9d"
+                ],
+                "bai": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,c1ce3dc967780b0dda4ff9611ccd420c"
+                    ]
+                ],
+                "bam": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,aa845260a9fdebcb99a1b569820d6de2"
+                    ]
+                ],
+                "versions": [
+                    "versions.yml:md5,7ed3196b956bb59d7819f39bcf4aea9d"
+                ]
+            }
+        ],
+        "timestamp": "2024-01-23T17:15:34.682401239"
+    },
+    "sarscov2 - [bam, bai] - BiscuitIndex | single end": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,aa845260a9fdebcb99a1b569820d6de2"
+                    ]
+                ],
+                "1": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,c1ce3dc967780b0dda4ff9611ccd420c"
+                    ]
+                ],
+                "2": [
+                    "versions.yml:md5,7ed3196b956bb59d7819f39bcf4aea9d"
+                ],
+                "bai": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam.bai:md5,c1ce3dc967780b0dda4ff9611ccd420c"
+                    ]
+                ],
+                "bam": [
+                    [
+                        {
+                            "id": "test",
+                            "single_end": true
+                        },
+                        "test.bam:md5,aa845260a9fdebcb99a1b569820d6de2"
+                    ]
+                ],
+                "versions": [
+                    "versions.yml:md5,7ed3196b956bb59d7819f39bcf4aea9d"
+                ]
+            }
+        ],
+        "timestamp": "2024-01-23T17:15:19.166695057"
+    }
+}
